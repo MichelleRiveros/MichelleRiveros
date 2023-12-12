@@ -1,0 +1,101 @@
+1. Conversion de Unidades de longitud
+	1. Entrada: Ingresa los centimetros a convertir
+	2. Leer: Dato ingresado
+		2.1 si el dato ingresado no es de tipo numerico devolver al paso 1 y
+		    enviar mensaje "Porfavor ingresar el dato en numeros
+		2.2 si el dato es correcto realizar el siguiente procedimiento 
+	3. (Dato ingresado / 2,54) 
+	4. mostrar salida del resultado
+
+2. Hora futura
+	1. Entrada: Ingrese la hora actual en formato de 24 horas
+	2. Leer: Hora_actual
+	3. Entrada: Ingrese numero entero de horas
+	4. Leer: n_entero
+	5. Procedimiento: Hora_actual + n_entero
+	5. Al resultado del procedimiento lo divido entre 24
+	6. Al resultado de la division le saco el numero entero y lo multiplico por 24
+	7. Al resultado del paso 5 le restamos 24
+	8. Mostrar salida del resultado
+
+3. Qué nota necesito
+	1. Entrada: "Ingresa nota del C1"
+	2. Leer: C1
+	3. Entrada: "Ingresa nota del C2"
+	4. Leer: C2
+	5. Entrada: "Ingresa de laboratorio"
+	6. Leer: L1
+	7. Procedimiento: Tomo C1, C2 y Nl y los reemplazo en ((60-(Nl*0.3))/0.7)3-(C1+c2)
+	8. Salida: Mostrar resultado del procedimiento
+	
+4. Numero Invertido
+	1. Entrada: Ingresa un numero entero de tres digitos
+	2. Leer: Numero ingresado
+		2.1 si el dato ingresado no es de tipo numerico devolver al paso 1 y
+		    enviar mensaje "Porfavor ingresa numero de tres digitos"
+		2.2 Si el numero ingresado tiene más de tres digitos o menos de tres   	
+                    digitos devolver al paso 1 y enviar mensaje "Porfavor ingresar numero de Tres digitos"
+		2.2 si el numero tiene 3 digitos realiza el siguiente procedimiento 
+	3. c = numero_ingresado MODULO (MOD) de 10
+	       numero_ingresado = parte entera (trunc) (numero_ingresado/10)
+
+	    d = numero_ingresado MODULO (MOD) de 10
+	       numero_ingresado = parte entera (trunc) (numero_ingresado/10)
+		
+	4. Escribir: c + d + numero_ingresado
+
+5. Años Bisiestos
+	1. Entrada: Ingrese el año (aa)
+	2. Leer: Verificar sin el dato ingresado es de tipo numerico
+	   y tiene 4 digitos
+		2.1 Si el dato no cumple con los requisitos volver al 
+		    punto uno y enviar mensaje:
+			"Porfavor ingresar el año de forma correcta"
+		2.2 Si el dato cumple con los requisitos ir paso 3
+	3. Procedimiento: 
+		3.1 si el residuo de (año ingresado / 4) no es = 0, 
+		    enviar mostrar salida con el siguiente mensaje: 
+			"El año ingresado no es bisiesto
+		3.2 si el residuo de (año ingresado / 4) es = 0, 
+		    ahora realice la siguiente operacion: 
+			(año ingresado / 400), si el residuo de la 
+			anterior operacion es = 0 mostrar salida del 
+			siguiente mensaje:   
+			"El año ingresado es bisiesto"   
+6. Edad
+	1. Entrada: Ingrese su año de nacimiento
+	2. Leer: verificar que el dato ingresado sea de tipo entero
+	3. Procedimiento (fecha actual - año de nacimiento ingresada)
+	4. Salida: Mostrar resultado de la operacion con texto al final 
+		   que diga "años" asi: " (resultado) años "
+
+7.  Determinar par 
+	1. Entrada: Ingrese un numero entero
+	2. Leer: Verificar si el dato ingresado es tipo entero 
+	3. Procedimiento: dividir el numero ingresado en 2 
+	   (numero ingresado / 2) 
+	4. Si el residuo de la division no es = 0, mostrar el 
+	   siguiente mensaje "su numero no es par"
+	4.1 Si el residuo de la division es = 0, pasar al punto 5   
+	5. Salida: Mostrar mensaje que diga "su numero es par"
+
+8. Tiempo de viaje
+	1. Entrada: Ingrese el tiempo de duracion de un tramo
+	2. Leer: Verificar si el dato ingresado es tipo entero e
+	         ir acumulandolos.
+	     2.1 Si el dato ingreasdo es = 0, terminar la acumulacion 
+		 de datos y pasar al punto tres. 
+	3. Procedimiento:sumar todos los datos cumulados y con el
+	   total de esa suma lo dividimos entre 60
+	4. Salida: Mostrar resultado
+
+9. Parte Decimal
+	1. Entrada: Ingrese un numero decimal
+	2. Leer: Verificar si el dato ingresado es decimal 
+	3. si el dato ingresado no es decimal volver al punto uno
+	   y mostrar un mensaje que diga "porfavor ingresar un numero con decimal"
+	4. si el dato ingresado es un numero decimal pasar puntp 5
+	5. Procedimiento: tomar la parte entera del numero ingresado y 
+	   restarla al numero total ingresado. 
+	6. Salida: Mostar resultado
+
